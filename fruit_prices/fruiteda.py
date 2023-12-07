@@ -69,8 +69,9 @@ class FruitPricesEDA:
         """
         Plots a heatmap of the correlation matrix.
         """
+        numerical_columns = ['RetailPrice', 'Yield', 'CupEquivalentPrice']
         plt.figure(figsize=(10, 8))
-        sns.heatmap(self.dataset.corr(), annot=True, cmap='coolwarm', fmt=".2f")
+        sns.heatmap(self.dataset[numerical_columns].corr(), annot=True, cmap='coolwarm', fmt=".2f")
         plt.title('Correlation Matrix')
         plt.show()
 

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+fruit_price_analysis.egg-info/PKG-INFO
+fruit_price_analysis.egg-info/SOURCES.txt
+fruit_price_analysis.egg-info/dependency_links.txt
+fruit_price_analysis.egg-info/requires.txt
+fruit_price_analysis.egg-info/top_level.txt
+fruit_prices/__init__.py
+fruit_prices/dataclean.py
+fruit_prices/fruiteda.py
+fruit_prices/fruitinference.py
+fruit_prices/fruitprediction.py
+fruit_prices/getdata.py
+fruit_prices/getsummary.py
+fruit_prices/main.py
